@@ -1,10 +1,10 @@
 import "./styles.css";
 import Input from "./components/Input";
-import { useButtonContext } from "./context/TodoContext";
+import { useTodo } from "./context/TodoContext";
 import Items from "./components/Items";
 export default function App() {
   // const buttonHandler = useButtonContext();
-  const { clearText, sendText, isEmpty } = useButtonContext();
+  const { clearText, sendText, isEmpty } = useTodo();
 
   return (
     <div className="App">

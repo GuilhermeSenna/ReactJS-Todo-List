@@ -1,10 +1,12 @@
-import { useText, useChangeText } from "../context/TodoContext";
+import { useTodo } from "../context/TodoContext";
 
 const Input = () => {
   // const [text, setText] = useState("");
 
-  const text = useText();
-  const changeText = useChangeText();
+  const { text, changeText } = useTodo();
+
+  // const text = useText();
+  // const changeText = useChangeText();
 
   return (
     <input
