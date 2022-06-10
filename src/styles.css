@@ -1,0 +1,50 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background: #444;
+  color: white;
+}
+
+input {
+  /* border-radius: 6px; */
+  font-size: 20px;
+  width: 70%;
+  height: 2rem;
+  /* border: 2px solid white; */
+  margin-right: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  /* margin: 0; */
+  margin: 0 5px;
+  height: 2.2rem;
+  background: white;
+  border: 0;
+  /* border-left: 1px solid black; */
+  border-radius: 15px;
+  /* margin-bottom: 20px; */
+}
+
+#limpar {
+  background: lightcoral;
+}
+
+#enviar {
+  background: lightgreen;
+}
+
+.warning {
+  margin-top: 10px;
+}
+
+.warning span {
+  font-size: 1.4rem;
+  color: red;
+}
